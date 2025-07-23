@@ -1,8 +1,12 @@
+// page.tsx or any component using motion
+"use client";
+
 import { motion } from "framer-motion";
 import { FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
-import { Skills } from "@/components/Skills";
+
 import { Contact } from "@/components/Contact";
 import { ProjectCard } from "@/components/ProjectCard";
+import { Skills } from "@/components/Skills";
 
 export default function Home() {
   return (
